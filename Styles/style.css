@@ -120,6 +120,7 @@ body {
   .footer {
     text-align: center; 
     padding: 20px 0; 
-    color: #999; 
+    background-color: #000000; 
+    color: #FFF; 
     font-size: .9rem; 
   }
