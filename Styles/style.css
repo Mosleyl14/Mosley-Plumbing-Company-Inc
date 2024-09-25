@@ -37,7 +37,7 @@ body {
   }
   
   .hero {
-    background-color: #585f63; 
+    background-color: #999999; 
     /* #757575 */
     /* #f5d3a9 */
     padding: 60px 45px; 
@@ -93,7 +93,7 @@ body {
 }
 
   .features {
-    background-color: #585f63; 
+    background-color: #999999; 
     /* #757575 */
     /* #f7adad */
     padding: 60px 45; 
