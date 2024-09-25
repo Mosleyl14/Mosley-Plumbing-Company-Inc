@@ -37,12 +37,13 @@ body {
   }
   
   .hero {
-    background-color: #999999; 
+    background-color: #c2c2c2; 
     /* #757575 */
     /* #f5d3a9 */
     padding: 60px 45px; 
     display: flex; 
     justify-content: center; 
+    min-height: 100vh; 
   }
   
   .hero-inner{
