@@ -5,7 +5,8 @@ body {
   
   .header {
     padding: 0 45px; 
-    background-color: #a60303; 
+    background-color: #dc3545; 
+    /* #a60303 */
     color: #FFF; 
     display: flex; 
     justify-content: space-between; 
@@ -69,7 +70,8 @@ body {
   }
 
   .button {
-    background-color: #a60303; 
+    background-color: #dc3545; 
+    /* #a60303 */
     color: #FFF; 
     text-decoration: none; 
     padding: 12px 20px; 
@@ -99,6 +101,52 @@ body {
     /* #f7adad */
     padding: 60px 45; 
   }
+
+  .grid {
+    background-color: #999999; 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row {
+    background-color: #999999; 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
+  .col-sm-6 {
+    background-color: #999999; 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px; 
+  }
+
+  .card-header { 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card-body { 
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card-body p{ 
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center; 
+  }
   
   .features-inner {
     max-width: 1200px; 
@@ -111,7 +159,8 @@ body {
   }
   
   .featured-item h3 {
-    color: #a60303; 
+    color: #dc3545; 
+    /* #a60303 */
     font-size: 1.5rem; 
     font-weight: normal; 
     margin: 0; 
@@ -126,7 +175,10 @@ body {
   .footer {
     text-align: center; 
     padding: 1.5em; 
-    background-color: #a60303; 
+    background-color: #dc3545; 
+    /* #a60303 */
     color: #FFF; 
     font-size: .9rem; 
+    vertical-align: center; 
+    margin: 0;
   }
