@@ -37,7 +37,8 @@ body {
   }
   
   .hero {
-    background-color: #f5d3a9; 
+    background-color: #757575; 
+    /* #f5d3a9 */
     padding: 60px 45px; 
     display: flex; 
     justify-content: center; 
@@ -91,7 +92,8 @@ body {
 }
 
   .features {
-    background-color: #f7adad; 
+    background-color: #757575; 
+    /* #f7adad */
     padding: 60px 45; 
   }
   
@@ -102,6 +104,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     grid-column-gap: 45px; 
     grid-row-gap: 45px; 
+    padding: 3em;
   }
   
   .featured-item h3 {
@@ -119,8 +122,8 @@ body {
   
   .footer {
     text-align: center; 
-    padding: 20px 0; 
-    background-color: #000000; 
+    padding: 1.5em; 
+    background-color: #a60303; 
     color: #FFF; 
     font-size: .9rem; 
   }
