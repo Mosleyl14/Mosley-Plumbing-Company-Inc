@@ -105,6 +105,7 @@ body {
 
 .hero-inner-index{
   text-align: center;
+  justify-content: center;
 }  
 
 .grid-index {
@@ -117,12 +118,13 @@ body {
 
 .Pipe-Wrench {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 .Text {
-  padding: 50px 0px;
+  padding: 50px 40px;
+  justify-content: right;
 }
 
 .hero-inner-about{
