@@ -90,7 +90,7 @@ body {
   /* #c2c2c2 - light gray/blue */
   /* #757575 */
   /* #f5d3a9 */
-  padding: 60px 45px; 
+  padding: 60px 10px; 
   display: flex; 
   justify-content: center;  
   min-height: 100vh; 
@@ -122,7 +122,7 @@ body {
 }
 
 .Text {
-  padding: 50px 100px;
+  padding: 50px 0px;
 }
 
 .hero-inner-about{
