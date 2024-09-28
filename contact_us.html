@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- External Fonts -->
     <script src="https://kit.fontawesome.com/2c9a70b72f.js" crossorigin="anonymous"></script>
+    
+    <!-- Local Bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.js">
-    <link rel="stylesheet" href="Styles/style.css"> 
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.js"> 
+    
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="Styles/style.css">
+
+    <!-- External Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
     
     <title>Contact Us</title>
 </head>
 <body>
-    <body>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+      
         <div class="header"> 
-          <h1>Mosley Plumbing Company, Inc.</h1> 
-        
-          <img src="Logos/Pipe Wrench.png" alt="MPC Logo">
-        
-          <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-          </ul>
+          <nav class="navbar col-12">
+              <div class="row-index col-12"> 
+                <a class="navbar-brand fw-bold" style="font-size: 4vw" href="index.html">Mosley Plumbing Company, Inc.</a> 
+              </div>  
+              <div class="row-index col-12"> 
+                <div class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-bars fa-2x"></i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="about.html">About</a></li>
+                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+                    <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+          </nav>
         </div> 
     
         <div class="hero">
