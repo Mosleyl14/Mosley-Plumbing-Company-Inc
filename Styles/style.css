@@ -119,12 +119,16 @@ body {
 .Pipe-Wrench {
   display: flex;
   justify-content: left;
-  align-items: left;
+  width: 25%; 
+  padding-right: 4rem; 
+  padding-left: .5rem;
 }
 
 .Text {
-  padding: 50px 40px;
-  justify-content: right;
+  padding-left: 4rem; 
+  padding-right: .5rem; 
+  justify-content: right; 
+  width: 70% 
 }
 
 .hero-inner-about{
