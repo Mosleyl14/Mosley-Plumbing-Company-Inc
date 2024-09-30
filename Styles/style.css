@@ -4,7 +4,7 @@ body {
 }
   
 .header {
-  padding: 0px 45px; 
+  padding: 0px 0px; 
   background-color: #a60303; 
   /* #a60303 - original red */
   /* #CD4137 - Wrench */
@@ -17,12 +17,16 @@ body {
   text-align: center;
 }
 
+.Pipe-Wrench {
+  display: flex;
+  justify-content: center;
+}
+
 .navbar {
   color: #FFF; 
   text-align: center; 
-  display: flex; 
   align-items: center; 
-  text-align: center;
+  display: flex;
   flex-wrap: wrap;
   word-wrap: break-word;
   width: 100%; 
@@ -35,17 +39,20 @@ body {
 
 .navbar-brand {
   color: #FFF; 
-  padding: 25px 45px; 
-  display: flex; 
-  transition: all 0.3s ease-out; 
-  overflow: visible; 
+  padding: 15px 0px 15px 0px; 
+  display: flex;  
+  overflow: wrap; 
   word-wrap: break-word;
   font-size: 40px;
   justify-content: center;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  text-decoration: none; 
 }
 
 .dropdown {
-  justify-content: right;
+  justify-content: center;
   text-align: right;
   display: flex;
   float: right;
@@ -108,27 +115,11 @@ body {
   justify-content: center;
 }  
 
-.grid-index {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.Pipe-Wrench {
-  display: flex;
-  justify-content: left;
-  width: 25%; 
-  padding-right: 4rem; 
-  padding-left: .5rem;
-}
-
 .Text {
-  padding-left: 4rem; 
-  padding-right: .5rem; 
+  padding-left: 1rem; 
+  padding-right: 1rem; 
   justify-content: right; 
-  width: 70% 
+  width: 100% 
 }
 
 .hero-inner-about{
