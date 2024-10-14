@@ -38,8 +38,7 @@ body {
 }
 
 .navbar-brand {
-  color: #FFF; 
-  padding: 15px 0px 15px 0px; 
+  color: #FFF;  
   display: flex;  
   overflow: wrap; 
   word-wrap: break-word;
@@ -119,7 +118,53 @@ body {
   padding-left: 1rem; 
   padding-right: 1rem; 
   justify-content: right; 
-  width: 100% 
+  width: 100%; 
+}
+
+.grid-features-hero {
+  background-color: #c2c2c2; 
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.row-hero {
+  background-color: #c2c2c2; 
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap; 
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+.Index-main {
+  background-color: #c2c2c2; 
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap; 
+  padding: 20px;
+  
+}
+
+.card-header-hero { 
+  background-color: #a60303; 
+  /* #a60303 - original red */
+  /* #CD4137 - Wrench */
+  /* #dc3545 - Danger */
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.card-body-hero { 
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-inner-about{
@@ -153,7 +198,7 @@ body {
   max-width: 400px; 
 }  
 
-.hero h1 {
+/* .hero h1 {
   font-weight: normal; 
   font-size: 4rem; 
   margin: 0; 
@@ -169,7 +214,7 @@ body {
   font-size: 1.18rem; 
   line-height: 1.2; 
   margin: 1; 
-}
+} */
 
 .button {
   background-color: #a60303; 
@@ -194,11 +239,14 @@ body {
 }
 
 .image { 
-  display: grid; 
   grid-row-gap: 45px; 
   padding: 60px 0px; 
-  display: flex;
-  width: 100%; 
+  display: block; 
+  justify-content: center; 
+  text-align: center;
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features {
