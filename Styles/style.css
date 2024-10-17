@@ -32,11 +32,6 @@ body {
   width: 100%; 
 }
 
-.row.index {
-  flex-wrap: wrap; 
-  word-wrap: break-word; 
-}
-
 .navbar-brand {
   color: #FFF;  
   display: flex;  
@@ -75,20 +70,18 @@ body {
   transition: all 0.3s ease-out; 
 }
 
-/* .nav a:hover {
-  color: #d48e8e; 
-  transform: rotate(6deg); 
-} */ 
-
-.nav {
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
+.hero-index {
+  background-color: #c2c2c2; 
+  /* #c2c2c2 - light gray/blue */
+  /* #757575 */
+  /* #f5d3a9 */
+  padding: 10px 10px 50px 10px; 
   display: flex; 
-}
-
-.nav li{
-  margin-left: 20px; 
+  justify-content: center; 
+  align-items: stretch;
+  flex-wrap: wrap; 
+  min-height: 50vh; 
+  width: 100%; 
 }
 
 .hero {
@@ -96,10 +89,26 @@ body {
   /* #c2c2c2 - light gray/blue */
   /* #757575 */
   /* #f5d3a9 */
-  padding: 60px 10px; 
+  padding: 60px 45px; 
   display: flex; 
-  justify-content: center;  
+  justify-content: center; 
+  align-items: stretch;
+  flex-wrap: wrap; 
   min-height: 100vh; 
+  width: 100%; 
+}
+
+.hero-contact {
+  background-color: #c2c2c2; 
+  /* #c2c2c2 - light gray/blue */
+  /* #757575 */
+  /* #f5d3a9 */
+  padding: 60px 45px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: stretch;
+  flex-wrap: wrap; 
+  min-height: 90vh; 
   width: 100%; 
 }
 
@@ -109,62 +118,13 @@ body {
   width: 100%;
 }  
 
-.hero-inner-index{
-  text-align: center;
-  justify-content: center;
-}  
-
-.Text {
-  padding-left: 1rem; 
-  padding-right: 1rem; 
-  justify-content: right; 
-  width: 100%; 
-}
-
-.grid-features-hero {
-  background-color: #c2c2c2; 
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.row-hero {
-  background-color: #c2c2c2; 
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap; 
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
-}
-
 .Index-main {
   background-color: #c2c2c2; 
   display: flex;
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap; 
-  padding: 20px;
-  
-}
-
-.card-header-hero { 
-  background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
-  padding: 20px;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap; 
-}
-
-.card-body-hero { 
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 20px;   
 }
 
 .hero-inner-about{
@@ -194,27 +154,23 @@ body {
   max-width: 600px; 
 } 
 
-.hero-inner-contact{
-  max-width: 400px; 
-}  
+.contact-info{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+} 
 
-/* .hero h1 {
-  font-weight: normal; 
-  font-size: 4rem; 
+.contact{
+  width: 80%; 
+} 
+
+.heading{
+  padding: 0px; 
   margin: 0; 
-}
-
-.hero h2 {
-  font-weight: normal; 
-  font-size: 1.5rem; 
-  margin: 0; 
-}
-
-.hero p {
-  font-size: 1.18rem; 
-  line-height: 1.2; 
-  margin: 1; 
-} */
+  border: 0;
+} 
 
 .button {
   background-color: #a60303; 
@@ -260,8 +216,7 @@ body {
   flex-wrap: wrap; 
 }
 
-.grid-features {
-  background-color: #999999; 
+.grid {
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -269,16 +224,15 @@ body {
 }
 
 .row {
-  background-color: #999999; 
   display: flex;
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap; 
   --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
+  --bs-gutter-y: 0; 
 }
 
-.col-sm-6 {
+.features-main {
   background-color: #999999; 
   display: flex;
   align-items: stretch;
@@ -299,45 +253,8 @@ body {
 }
 
 .card-body { 
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card-body p{ 
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
   text-align: center; 
 }
-
-/*
-.features-inner {
-  max-width: 1200px; 
-  margin: 0 auto; 
-  display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  grid-column-gap: 45px; 
-  grid-row-gap: 45px; 
-  padding: 3em;
-}
-
-.featured-item h3 {
-  color: #a60303; 
-  /* #a60303 - original red */
-  /* #dc3545 - Danger *//*
-  font-size: 1.5rem; 
-  font-weight: normal; 
-  margin: 0; 
-}
-
-.featured-item p {
-  margin: 0; 
-  line-height: 1.6; 
-  color: #000000; 
-}
-*/
 
 .footer {
   text-align: center; 
