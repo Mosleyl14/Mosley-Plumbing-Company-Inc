@@ -2,7 +2,7 @@ body {
   margin: 0; 
   font-family: "Source Sans Pro", sans-serif; 
 }
-  
+
 .header {
   padding: 0px 0px; 
   background-color: #a60303; 
@@ -65,7 +65,7 @@ body {
   text-decoration: none; 
   display: block; 
   transition: all 0.3s ease-out; 
-}
+} 
 
 .hero-index {
   background-color: #c2c2c2; 
@@ -99,12 +99,6 @@ body {
   min-height: 90vh; 
   width: 100%; 
 }
-
-.hero-inner{
-  max-width: 600px; 
-  text-align: center;
-  width: 100%;
-}  
 
 .Index-main {
   background-color: #c2c2c2; 
@@ -165,22 +159,7 @@ body {
 .button:hover {
   color: #d48e8e; 
   transform: rotate(6deg); 
-}
-
-.image img {
-  width: 100%; 
-}
-
-.image { 
-  grid-row-gap: 45px; 
-  padding: 60px 0px; 
-  display: block; 
-  justify-content: center; 
-  text-align: center;
-  width: 50%; 
-  margin-left: auto;
-  margin-right: auto;
-}
+} 
 
 .features {
   background-color: #999999; 
