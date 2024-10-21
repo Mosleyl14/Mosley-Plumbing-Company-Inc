@@ -126,10 +126,8 @@ body {
   justify-content: center;
 } 
 
-.bullets-inside {
-  align-items: left; 
-  justify-content: center;
-  list-style-position: inside;
+.list-container {
+  list-style-position: outside; 
 }
 
 .hero-inner-project{
