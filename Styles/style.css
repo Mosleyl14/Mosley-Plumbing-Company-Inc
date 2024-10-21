@@ -2,11 +2,11 @@
  {
     body
     {
-        font-size: 17px; 
+        font-size: 22px; 
     }
     h1
     {
-        font-size:24px;
+        font-size:44px;
     }
  }
 
@@ -14,11 +14,11 @@
  {
     body
     {
-        font-size: 22px; 
+        font-size: 17px; 
     }
     h1
     {
-        font-size:44px;
+        font-size:24px;
     }
  }
 
