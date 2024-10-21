@@ -6,12 +6,9 @@ body {
 .header {
   padding: 0px 0px; 
   background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
   color: #FFF; 
   display: flex; 
-  justify-content: center; /* space-between */
+  justify-content: center; 
   align-items: center; 
   flex-wrap: wrap; 
   text-align: center;
@@ -72,10 +69,7 @@ body {
 
 .hero-index {
   background-color: #c2c2c2; 
-  /* #c2c2c2 - light gray/blue */
-  /* #757575 */
-  /* #f5d3a9 */
-  padding: 10px 10px 50px 10px; 
+  padding: 10px 0px 50px 0px; 
   display: flex; 
   justify-content: center; 
   align-items: stretch;
@@ -86,9 +80,6 @@ body {
 
 .hero {
   background-color: #c2c2c2; 
-  /* #c2c2c2 - light gray/blue */
-  /* #757575 */
-  /* #f5d3a9 */
   padding: 60px 45px; 
   display: flex; 
   justify-content: center; 
@@ -100,9 +91,6 @@ body {
 
 .hero-contact {
   background-color: #c2c2c2; 
-  /* #c2c2c2 - light gray/blue */
-  /* #757575 */
-  /* #f5d3a9 */
   padding: 60px 45px; 
   display: flex; 
   justify-content: center; 
@@ -124,7 +112,7 @@ body {
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap; 
-  padding: 20px;   
+  padding: 20px; 
 }
 
 .hero-inner-about{
@@ -135,8 +123,6 @@ body {
 
 .about{
   background-color: #c2c2c2; 
-  /* #757575 */
-  /* #f5d3a9 */
   justify-content: center;
 } 
 
@@ -174,9 +160,6 @@ body {
 
 .button {
   background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
   color: #FFF; 
   text-decoration: none; 
   padding: 12px 20px; 
@@ -207,8 +190,6 @@ body {
 
 .features {
   background-color: #999999; 
-  /* #757575 */
-  /* #f7adad */
   padding: 60px 45; 
   display: flex;
   align-items: stretch;
@@ -243,9 +224,6 @@ body {
 
 .card-header { 
   background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
   display: flex;
   align-items: stretch;
   justify-content: center;
@@ -260,9 +238,6 @@ body {
   text-align: center; 
   padding: 1.5em; 
   background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
   color: #FFF; 
   font-size: .9rem; 
   margin: 0;
@@ -276,9 +251,6 @@ body {
   text-align: center; 
   padding: 1.5em; 
   background-color: #a60303; 
-  /* #a60303 - original red */
-  /* #CD4137 - Wrench */
-  /* #dc3545 - Danger */
   color: #FFF; 
   font-size: .9rem; 
   margin: 0;
