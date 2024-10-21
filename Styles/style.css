@@ -146,6 +146,10 @@ body {
   border: 0;
 } 
 
+.submit { 
+  padding: 5px 0px 5px 0px; 
+}
+
 .button {
   background-color: #a60303; 
   color: #FFF; 
