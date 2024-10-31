@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 
-.Pipe-Wrench {
+.Space {
   display: flex;
   justify-content: center;
 }
@@ -40,6 +40,20 @@ body {
   text-align: center;
   display: flex;
   text-decoration: none; 
+}
+
+.brand {
+  color: #FFF;  
+  display: flex;  
+  overflow: wrap; 
+  word-wrap: break-word;
+  font-size: 30px;
+  justify-content: center;
+  white-space: normal;
+  text-align: center;
+  display: flex;
+  text-decoration: none; 
+  align-items: center;
 }
 
 .dropdown {
