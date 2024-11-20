@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0; 
+  padding: 0;
   font-family: "Source Sans Pro", sans-serif; 
 }
 
@@ -112,6 +117,7 @@ body {
   flex-wrap: wrap; 
   min-height: 90vh; 
   width: 100%; 
+  max-width: none;
 }
 
 .Index-main {
@@ -148,6 +154,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
+  max-width: none;
+} 
+
+.contact{
+  max-width: none;
 } 
 
 .heading{
@@ -185,10 +196,10 @@ body {
 }
 
 .grid {
-  display: flex;
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: none;
 }
 
 .row {
@@ -198,6 +209,7 @@ body {
   flex-wrap: wrap; 
   --bs-gutter-x: 0;
   --bs-gutter-y: 0; 
+  max-width: none;
 }
 
 .features-main {
